@@ -8,7 +8,6 @@ app = typer.Typer(help="File & folder utilities")
 # Files Commands
 # --------------
 
-
 @app.command()
 def rename(
     folder: str,
