@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sh3bang"
-version = "0.2.0"
+version = "0.3.0"
 description = "A personal CLI with utilities."
 authors = [
   { name = "Wasik Ahmed Apon", email = "aponwasikahmed@gmail.com" }
@@ -18,6 +18,10 @@ dependencies = [
   "requests >=2.32.0",
   "typer >=0.12.3",     # for CLI handling
   "rich >=13.7.0",      # for colorful CLI output
+
+  # files
+  "pdf2docx",
+  "docx2pdf",
   
   # clipboard_manager
   "tabulate",
